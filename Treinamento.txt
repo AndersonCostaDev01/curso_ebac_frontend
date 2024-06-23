@@ -11,6 +11,12 @@ $ git push // faz o envio do arquivo preparado para a nuvem
 $ git remote add origin https://github.com/AndersonCostaDev01/curso_ebac_frontend~
  // Informa em qual local deve ser salvo na nuvem 
 
-git push --set-upstream origin master
+git branch // Verifica as branch e qual esta em uso atualmente
+
+git branch <Nome> // Cria a branch em sistema 
+
+git checkout <Nome> // Troc a para a branch citada 
+
+git push --set-upstream origin master // cria a branch no GitHub e salva os arquivos 
 
  
