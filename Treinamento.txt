@@ -1,0 +1,16 @@
+$ git init // Inicia o git ma pasta selecionada 
+
+$ git add . // Adiciona todos os arquivos para o git possa fazer o vercionamento
+
+$ git status // Verifica o status da pasta 
+
+$ git commit -m "Primeira Versão" // Faz a preparação para o envio do arquivo para o GitHub
+
+$ git push // faz o envio do arquivo preparado para a nuvem 
+
+$ git remote add origin https://github.com/AndersonCostaDev01/curso_ebac_frontend~
+ // Informa em qual local deve ser salvo na nuvem 
+
+git push --set-upstream origin master
+
+ 
